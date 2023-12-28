@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<meta http-equiv='refresh' content='12' />-->
+    <title>EchoDomo by EchoGroup</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+	<div class="status">
+        <div class="charge" id="stat"><h3><span id="statusBAT">-</span></h3></div>
+    </div>
+    <div class="sens">
+        <div class="sensor" id="tem" type="button" onClick=""><h3>Temperature</h3><h1><span id="temp">-</span></h1><h3>ºC</h3></div>
+        <div class="sensor" id="hu" type="button" onClick=""><h3>Humidity</h3><h1><span id="hum">-</span></h1><h3>%</h3></div>
+        <div class="sensor" id="vol" type="button" onClick=""><h3>Battery</h3><h1><span id="volt">-</span></h1><h3>Volts</h3></div>
+        <div class="sensor" id="fue" type="button" onClick=""><h3>Capacity</h3><h1><span id="fuel">-</span></h1><h3>%</h3></div>
+    </div>
+    <div class="chs">
+        <div class="channel" id="c1" type="button" onClick=""><h3>Balcony</h3><h1><span id="statusCh1">-</span></h1><h3>Light</h3></div>
+        <div class="channel" id="c2" type="button" onClick=""><h3>Room</h3><h1><span id="statusCh2">-</span></h1><h3>Light</h3></div>
+        <div class="channel" id="c3" type="button" onClick=""><h3>Exterior</h3><h1><span id="statusCh3">-</span></h1><h3>Light</h3></div>
+        <div class="channel" id="c4" type="button" onClick=""><h3>Living</h3><h1><span id="statusCh4">-</span></h1><h3>Light</h3></div>
+    </div>
+    <div class="all">
+        <div class="All" id="onall" type="button" onClick="onAll()"><h1>ON ALL</h1></div>
+        <div class="All" id="offall" type="button" onClick="offAll()"><h1>OFF ALL</h1></div>
+    </div>
+    <div class="chs">
+        <div class="switch" id="c5"><h3>Plug</h3><h1><span id="statusCh5">-</span></h1><h3>Switch</h3></div>
+        <div class="switch" id="c6"><h3>Inverter</h3><h1><span id="statusCh6">-</span></h1><h3>Switch</h3></div>
+    </div>
+    <div class="url">
+        <div class="IP" id="wIP"><h3>http://192.168.100.130</h3></div>
+        <div class="IP" id="hIP"><h3>http://192.168.4.1</h3></div>
+        <div class="IP" id="exIP"><h3>http://192.168.0.123</h3></div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

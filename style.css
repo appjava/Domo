@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/nasa');
+@import url('https://fonts.cdnfonts.com/css/lcd');
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+    font-family: Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div {
+    margin-top: 3px;
+}
+
+.sens {
+    border: 1px none red;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.sensor {
+    padding-top: 12px;
+    border: 1px solid black;
+    height: 102px;
+    width: 132px;
+    min-height: 102px;
+    min-width: 132px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+}
+
+.channel {
+    padding-top: 12px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    height: 90px;
+    width: 132px;
+    min-height: 90px;
+    min-width: 132px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.switch {
+    padding-top: 12px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    height: 90px;
+    width: 270px;
+    min-height: 90px;
+    min-width: 270px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.All {
+    padding-top: 12px;
+    padding-bottom: 0;
+    border: 1px solid black;
+    height: 48px;
+    width: 270px;
+    min-height: 48px;
+    min-width: 270px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.IP {
+    padding-top: 15px;
+    padding-bottom: 0;
+    border: 1px solid black;
+    height: 30px;
+    width: 270px;
+    min-height: 30px;
+    min-width: 270px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+.url{
+    margin-bottom: 6px;
+}
+
+.charge {
+    padding-top: 9px;
+    padding-bottom: 0;
+    border: 1px solid black;
+    height: 24px;
+    min-height: 24px;
+    min-width: 270px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    -webkit-app-region: drag;
+}
+.status{
+    position: sticky;
+    top: -3px;
+}
+
+#wIP {
+    text-decoration: underline;
+}
+
+.sensor h1 {
+    font-size: 51px;
+    font-family: 'Nasa', Impact, sans-serif;
+}
+
+.channel h1 {
+    font-size: 39px;
+    font-family: 'Nasa', Impact, sans-serif;
+}
+.All h1 {
+    font-size: 39px;
+    font-family: 'Nasa', Impact, sans-serif;
+}
+.switch h1 {
+    font-size: 39px;
+    font-family: 'Nasa', Impact, sans-serif;
+}
+.IP {
+    font-family: 'Nasa', Impact, sans-serif;
+}
+.charge {
+    font-family: 'Nasa', Impact, sans-serif;
+}
+
+.sensor:hover {
+    background-color: hsl(30, 60%, 60%);
+}
+
+.channel:hover {
+    background-color: hsl(90, 60%, 60%);
+}
+
+.switch:hover {
+    background-color: hsl(0, 60%, 60%);
+}
+
+.All:hover {
+    background-color: hsl(90, 60%, 60%);
+}
+
+.IP:hover {
+    background-color: hsl(0, 60%, 60%);
+}
+
+.charge:hover {
+    background-color: hsl(0, 60%, 60%);
+}
